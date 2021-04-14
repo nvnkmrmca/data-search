@@ -1,5 +1,5 @@
-const API_BASE_PATH = 'http://localhost:3001/';
-// const API_BASE_PATH = 'http://104.196.184.134:3000/';
+// const API_BASE_PATH = 'http://localhost:3001/';
+const API_BASE_PATH = 'https://data-search.herokuapp.com/';
 export const API_PATH = API_BASE_PATH;
 export const IMAGE_BASE_PATH = API_BASE_PATH + 'image/';
 export const FILE_BASE_PATH = API_BASE_PATH + 'file/';
@@ -19,7 +19,4 @@ export const COLOR = {
     MODAL_BG: '#cce1f1'
 };
 export const ROLE = {
-    USER: 'USER',
-    COOK: 'COOK',
-    DELIVERYBOY: 'DELIVERYBOY'
 };

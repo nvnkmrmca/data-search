@@ -2,7 +2,7 @@ import { actionTypes } from '../action-types';
 import { IHistoricalDataList } from '../../models/store/historical-data-list';
 import { IHistoricalData } from '../../models/historical-data';
 import Api from '../api/api';
-import { isNNObject, isNN } from '../../util/index';
+import { isNNObject } from '../../util/index';
 
 let controller: string = 'search';
 

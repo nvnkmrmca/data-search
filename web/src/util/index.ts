@@ -9,7 +9,7 @@ export function isNN(_input: any) {
 };
 
 export function isNNObject(_input: any) { 
-  return (_input != null && _input != undefined) 
+  return (_input !== null && _input !== undefined) 
 };
 
 export function str2Json(_input: string) { 

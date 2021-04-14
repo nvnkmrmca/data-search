@@ -3,7 +3,6 @@ import { AiFillIdcard } from 'react-icons/ai';
 import { BsGrid3X3 } from 'react-icons/bs';
 import { View, Text, TextInput } from '../common/elements';
 import { IHistoricalDataList } from '../../models/store/historical-data-list';
-import { IHistoricalData } from '../../models/historical-data';
 import Spinner from '../common/spinner';
 import DataTable from '../common/data-table';
 import Card from '../common/card';
